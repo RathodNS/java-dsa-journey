@@ -8,7 +8,7 @@ public class linearSearch {
     }
 
     public static int getTargetIndex(int[] a,int targetValue  ){
-        int index=0;
+        int index=-1;
       for( int i=0;i<a.length;i++){
           if(a[i]==targetValue){
               index=i;
