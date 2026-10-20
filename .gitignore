@@ -1,0 +1,15 @@
+### IntelliJ IDEA specific ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+# Gradle output
+.gradle/
+build/
+
+### Operating System Files ###
+.DS_Store
+Thumbs.db
