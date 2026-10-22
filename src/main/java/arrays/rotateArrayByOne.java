@@ -12,6 +12,9 @@ public class rotateArrayByOne {
     }
 
     public static int[] rotateArray(int[] a,int byPosition){
+        if(a==null || a.length<1){
+            return a;
+        }
 
        int temp=a[0];
        for (int i=1;i<a.length-1;i++){
