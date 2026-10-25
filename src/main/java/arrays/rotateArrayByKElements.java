@@ -7,14 +7,15 @@ public class rotateArrayByKElements {
 
     static void main() {
         int[] a = {1,2,3,4,5,6,7};
+//        int[] a ={99,-1,-100,3};
         int[] aCopy = a.clone();
-        int [] rotatedArray= rotateByKPosition(a,5);
+        int [] rotatedArray= rotateByKPosition(a,2);
 //
         Arrays.stream(rotatedArray).forEach(b->System.out.print(b+","));
 
         System.out.println("-----------");
 
-        int [] rotatedArrayOptimized = rotateArrayOptimized(aCopy,5);
+        int [] rotatedArrayOptimized = rotateArrayOptimized(aCopy,3);
         Arrays.stream(rotatedArrayOptimized).forEach(c->System.out.print(c+","));
 
     }
